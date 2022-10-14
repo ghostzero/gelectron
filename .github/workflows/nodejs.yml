@@ -13,7 +13,7 @@ on:
 jobs:
   build:
 
-    runs-on: windows-2021
+    runs-on: windows-2019
     env:
       working-directory: ./client 
       CI: true
